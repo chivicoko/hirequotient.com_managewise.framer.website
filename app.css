@@ -60,12 +60,33 @@ button {
 
 /* topnav section */
 .navbar.topnav {
-    padding: 15px 25px;
+    padding: 15px 20px;
     border-bottom: 2px solid #f6ece6;
 }
 
-.navbar.topnav img {
+.navbar.topnav img.logo-1 {
     width: 45px;
+}
+
+.navbar.topnav img.logo-2 {
+    display: none;
+}
+
+.navbar.topnav .hamburger {
+    width: 40px;
+    height: 36px;
+    background: transparent;
+    border: none;
+    display: none;
+}
+
+.navbar.topnav .hamburger .line {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+    background: rgb(28, 28, 28);
+    border-radius: 5px;
 }
 
 .navbar.topnav .topnav-right {
@@ -456,8 +477,8 @@ p.statement {
 }
 
 .explore-area .socials-area .social-icons {
-    position: relative;
-    z-index: 1;
+    /* position: relative; */
+    z-index: -1;
 }
 
 .explore-area .enable-integrations {
@@ -975,4 +996,83 @@ footer .manage-wise-footer-bottom ul {
 .reveal.active {
     transform: translateY(0);
     opacity: 1;
+}
+
+
+/* media queries */
+@media (max-width: 809px) {
+
+    
+    .navbar.topnav img.logo-1 {
+        display: none;
+    }
+
+    .navbar.topnav img.logo-2 {
+        display: inline;
+        z-index: 1;
+        width: 180px;
+    }
+
+    .navbar.topnav .topnav-right {
+        position: relative;
+    }
+
+    .navbar.topnav .topnav-right {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff;
+        padding-block: 110px;
+        width: 100vw;
+        gap: 65px;
+        display: none;
+    }
+
+    .open {
+        display: flex !important;
+    }
+
+    .navbar.topnav .topnav-right ul {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .navbar.topnav .topnav-right ul .dot {
+        display: none;
+    }
+
+    .navbar.topnav .topnav-right .buy-template-btn {
+        background: #8247ff;
+        color: #fff;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar.topnav .hamburger {
+        display: inline;
+        z-index: 1;
+    }
+
+    .navbar.topnav .hamburger.hamburger-cross {
+        transform: rotate(90deg);
+        transform: translateY(0px);
+    }
+
+    .navbar.topnav .hamburger.hamburger-cross .line-2 {
+        display: none;
+    }
+
+    .navbar.topnav .hamburger.hamburger-cross .line-1 {
+        transform: rotate(45deg) translateY(12px) translate(6px);
+    }
+    
+    .navbar.topnav .hamburger.hamburger-cross .line-3 {
+        transform: rotate(-45deg) translateY(0px) translate(-6px);
+
+    }
 }

@@ -1,3 +1,13 @@
+// topnav hamburger
+const hamburger = document.querySelector(".hamburger");
+const navOpen = document.querySelector(".navbar.topnav .topnav-right");
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle("hamburger-cross");
+    navOpen.classList.toggle("open");
+})
+
+
 // faq accordion
 function toggleAccordion(sectionNumber) {
     const content = document.querySelector(`.accordion-item:nth-child(${sectionNumber}) .accordion-content`);

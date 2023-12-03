@@ -1394,3 +1394,181 @@ footer .manage-wise-footer-bottom ul {
     }
 
 }
+
+
+@media (max-width: 428px) {
+    
+    /* hero area */
+    .hero-area {
+        padding: 80px 5px;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+        font-size: 54px;
+        line-height: 54px;
+    }
+
+    h2 {
+        margin-block: 15px;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    p.statement {
+        font-size: 18px;
+        line-height: 27px;
+        width: 385px;
+    }
+    
+    .hero-area .apple-managewise-img img {
+        width: 395px;
+    }
+
+    /* features */
+    .features-area .boost-productivity p {
+        width: 305px;
+    }
+    
+    .features-area .smart-task,
+    .features-area .scrollable-area .upcoming-schedule,
+    .features-area .scrollable-area .easy-communication,
+    .features-area .scrollable-area .analytics
+    {
+        margin-block: 20px;
+        width: 90vw;
+    }
+    
+    .features-area .smart-task .text,
+    .features-area .scrollable-area .upcoming-schedule .text,
+    .features-area .scrollable-area .easy-communication .text,
+    .features-area .scrollable-area .analytics .text
+    {
+        padding-top: 10px;
+    }
+    
+    .features-area .smart-task h3,
+    .features-area .scrollable-area .upcoming-schedule h3,
+    .features-area .scrollable-area .easy-communication h3,
+    .features-area .scrollable-area .analytics h3
+    {
+        font-size: 22px;
+        line-height: 28.6px;
+    }
+    
+    .features-area .smart-task p,
+    .features-area .scrollable-area .upcoming-schedule p,
+    .features-area .scrollable-area .easy-communication p,
+    .features-area .scrollable-area .analytics p
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    /* explore area */
+    .explore-area {
+        margin-top: 40px;
+        padding: 60px 22px 0;
+    }
+
+    .explore-area h2, .explore-area .statement {
+        text-align: center;
+    }
+
+    .explore-area .statement {
+        margin-bottom: 10px;
+    }
+
+    .explore-area .cross-platform-compatibility,
+    .explore-area .essential-notifications,
+    .explore-area .secure-data
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .explore-area .cross-platform-compatibility p,
+    .explore-area .essential-notifications p,
+    .explore-area .secure-data p
+    {
+        width: 325px;
+    }
+
+    .explore-area .socials-area {
+        margin-top: 110px;
+        margin-bottom: 40px;
+    }
+
+    .explore-area .enable-integrations h2 {
+        width: 400px;
+    }
+    
+    .explore-area .enable-integrations .statement {
+        width: 380px;
+    }
+
+    .explore-area .enable-integrations img {
+        width: 366px;
+    }
+    
+    /* faq */
+    .faq .statement {
+        width: 385px;
+    }
+    
+    .accordion-content {
+        padding-right: 5px;
+    }
+
+    /* pricing area */
+    .pricing .price p .price-tag {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .pricing .price ul {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    /* testimonials */
+    .testimonials {
+        margin-top: 130px;
+    }
+
+    .testimonials .title, .testimonials h2, .testimonials .statement {
+        margin-left: 20px;
+    }
+
+    .testimonials .statement {
+        width: 385px;
+    }
+
+    .testimonials article::before,
+    .testimonials article::after
+    {
+        width: 40px;
+    }
+    
+    /* don't miss out */
+    .dont-miss {
+        padding: 60px;
+        margin: 160px 20px 125px;
+        border-radius: 20px;
+        gap: 10px;
+
+    }
+
+    .dont-miss h2 {
+        width: 325px;
+    }
+    
+    .dont-miss .statement {
+        width: 227px;
+    }
+
+    .dont-miss img {
+        width: 385px;
+    }
+
+}

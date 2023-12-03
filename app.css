@@ -562,10 +562,6 @@ button.accordion-header span {
     transform: skew(55deg, -47deg);
 }
 
-.accordion-active {
-    color: rgb(130, 71, 255);
-}
-
 .accordion-content {
     padding: 10px 0;
     padding-right: 10px;

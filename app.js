@@ -12,6 +12,7 @@ hamburger.addEventListener('click', () => {
 function toggleAccordion(sectionNumber) {
     const content = document.querySelector(`.accordion-item:nth-child(${sectionNumber}) .accordion-content`);
     const header = document.querySelector(`.accordion-item:nth-child(${sectionNumber}) .accordion-header`);
+    console.log(header);
     const headerSpan = header.querySelector('span');
 
     // Check the computed style for display property
@@ -19,11 +20,11 @@ function toggleAccordion(sectionNumber) {
 
     if (contentDisplayStyle === 'block' || contentDisplayStyle === 'inline-block') {
         content.style.display = 'none';
-        header.classList.remove('accordion-active');
+        header.style.color = "rgb(28, 28, 28)";
         headerSpan.classList.remove('accordion-span-active');
     } else {
         content.style.display = 'block';
-        header.classList.add('accordion-active');
+        header.style.color = "rgb(130, 71, 255)";
         headerSpan.classList.add('accordion-span-active');
     }
 }

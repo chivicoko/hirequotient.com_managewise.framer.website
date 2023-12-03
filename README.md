@@ -1,5 +1,5 @@
 # Manage Wise - SaaS Product Landing Page
-![Manage Wise - The Clone](/images/readme-thumb.png)
+![Manage Wise - The Clone](images/readme-thumb.png)
 
 ## Description
 

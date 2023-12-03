@@ -1,4 +1,4 @@
-
+// faq accordion
 function toggleAccordion(sectionNumber) {
     const content = document.querySelector(`.accordion-item:nth-child(${sectionNumber}) .accordion-content`);
     const header = document.querySelector(`.accordion-item:nth-child(${sectionNumber}) .accordion-header`);
@@ -17,3 +17,26 @@ function toggleAccordion(sectionNumber) {
         headerSpan.classList.add('accordion-span-active');
     }
 }
+
+
+// testimonials infinite carousel
+const testimonyCopy = document.querySelector(".testimony-cards").cloneNode(true);
+document.querySelector("article").appendChild(testimonyCopy);
+
+
+// reveal sections/images on scroll
+window.addEventListener('scroll', () => {
+    var reveals = document.querySelectorAll('.reveal');
+
+    for (let i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var revealTop = reveals[i].getBoundingClientRect().top;
+        var revealPoint = 100;
+
+        if (revealTop < windowHeight - revealPoint) {
+            reveals[i].classList.add('active');
+        } else {
+            reveals[i].classList.remove('active');
+        }
+    }
+});

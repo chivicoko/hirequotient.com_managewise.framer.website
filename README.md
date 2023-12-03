@@ -1,34 +1,34 @@
 # Manage Wise - SaaS Product Landing Page
-![African Music](/images/readme-thumb.png)
+![Manage Wise - The Clone](/images/readme-thumb.png)
 
 ## Description
 
-This is a task for entry into an internship program. It's basically a clone of the one of the site's homepage, given to the applicants by the interning company - HireQuotient. The site that clone - this particular task is this (ManageWise - managewise.framer.website)
+This is a 3-day task for entry into an internship program. It's basically a clone of the one of the site's homepage, given to the applicants by the interning company - HireQuotient. The site that clone - this particular task is this (ManageWise - managewise.framer.website)
 
 I built this with HTML, vanilla CSS and JavaScript ([W3C HTML Living Standard](https://html.spec.whatwg.org/multipage/), [ WHATWG HTML Living Standard](https://html.spec.whatwg.org/multipage/), [W3C CSS Working Group](https://www.w3.org/Style/CSS/), [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)),  [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) .
 
 ### Display
 
-This task is hosted with GitHub pages. Take a look at it [here]()
+This task is hosted with GitHub pages. Take a look at it [here](https://chivicoko.github.io/hirequotient.com_managewise.framer.website/)
 
-## How to Install and Run this App
 
-### Install/Update
+### Don't hesitate to reach out to me please
 
-Change directory into the 'mezzolistr-app' directory 
+Phone 
 ```sh
-$ cd mezzolistr-app
+$ +234 8028845693
 ```
 
-#### Some dependencies you may need to install or update for your OS:
-npm, node, mongoose, express, concurrently, cors, dotenv
-
-### Run
-To run this app, navigate into the 'server' directory
+Email Address 
 ```sh
-$ cd server
+$ victor.c.okoye@gmail.com
 ```
-Then:
-- To run the server, use ```npm run server```
-- To run the client, use ```npm run client```
-- To run both the server and client concurrently (the 'build'), use ```npm run build```
+
+Personal Website
+[www.victorokoye.com](https://www.victorokoye.com/)
+
+
+
+
+
+```Keep grinding!```

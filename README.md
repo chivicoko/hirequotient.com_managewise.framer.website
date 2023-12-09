@@ -10,25 +10,3 @@ I built this with HTML, vanilla CSS and JavaScript ([W3C HTML Living Standard](h
 ### Display
 
 This task is hosted with GitHub pages. Take a look at it [here](https://chivicoko.github.io/hirequotient.com_managewise.framer.website/)
-
-
-### Don't hesitate to reach out to me please
-
-Phone 
-```sh
-$ +234 8028845693
-```
-
-Email Address 
-```sh
-$ victor.c.okoye@gmail.com
-```
-
-Personal Website
-[www.victorokoye.com](https://www.victorokoye.com/)
-
-
-
-
-
-```Keep grinding!```
